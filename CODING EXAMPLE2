@@ -1,0 +1,38 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Example2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Scanner in = new Scanner(System.in);
+
+  // if an employee works more than 35 hours a week. compute his/her overtime pay which is half of his salary
+      
+       
+       int hours;
+       double overtime;
+       double salary;
+       
+       System.out.print("Please Enter your salary: ");
+       salary = in.nextDouble();
+       System.out.print("Please Enter your working hour: ");
+       hours = in.nextInt();
+       
+       if (hours>35) {
+         
+        overtime = 0.5*salary;}
+       
+       else {
+    	   overtime = 0.25 *salary;
+       }
+        
+        System.out.println("\n Your Overtime pay is: " + overtime);
+        
+       
+       
+		
+		
+		
+	}
+
+}
