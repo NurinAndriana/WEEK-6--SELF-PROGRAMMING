@@ -15,9 +15,11 @@ public class Example1 {
     System.out.print("Enter your income: ");
     income= in.nextDouble();
     
-    if ((income>MIN_LEVEL) && (age <50));
-    System.out.println("Can Apply Loan");
+    if ((income>MIN_LEVEL) && (age <50)){
+    System.out.println("Can Apply Loan");}
     
+    else {
+    System.out.println("Cannot Apply Loan");}
     
     
     
