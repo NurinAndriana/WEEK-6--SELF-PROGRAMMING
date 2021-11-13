@@ -1,0 +1,27 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Example3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     Scanner in = new Scanner(System.in);
+     
+     // calculate area of circle when radius is greater than 0 and display the area.
+     
+     double radius;
+     double areaofcircle;
+     
+     System.out.print("Enter radius: ");
+     radius = in.nextDouble();
+     
+     if (radius>0) {
+     areaofcircle = 3.142*(radius*radius);
+     System.out.println("The Area of Circle is: " + areaofcircle);}
+     
+     
+     
+    
+    	 
+	}
+
+}
