@@ -1,0 +1,36 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Example8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner in = new Scanner (System.in);
+
+/*cost to send a telegram to the United Kingdom is RM 15.00 for the first 15 words
+ * and RM 0.50 will be added for each additional thereafter. provide a program that
+ * will calculated the price of a telegram when the number of words will be given
+ * by the sender. Display the total payment.
+ * 
+ * 
+ */
+   
+      int words;
+      double price = 15.00;
+      double totalpayment;
+      
+      System.out.print("Enter number of words: ");
+      words = in.nextInt();
+      
+      if (words<=15) {
+    	  System.out.println("Total payment is: RM " + price);}
+      
+      else {
+    	  totalpayment = 15 + ((words - 15)*0.50);
+      System.out.println("Total payment is: RM " + totalpayment);}
+
+
+	}
+	
+	
+
+}
