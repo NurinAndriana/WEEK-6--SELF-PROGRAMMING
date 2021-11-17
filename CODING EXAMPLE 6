@@ -1,0 +1,35 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Example6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner in = new Scanner(System.in);
+		
+		/* the program will be assigned based on the value of a code. Display
+		 * the name of the program that will be assigned based on following table
+		 */
+		
+		int code;
+		
+		
+		System.out.print("Enter your code: ");
+		code = in.nextInt();
+		
+		if(code == 1)
+			
+		  System.out.println("Degree in Multimedia");
+		else if (code==2)
+			System.out.println("Degree in Networking");
+		else 
+			System.out.println("Degree in Robotics");
+		
+		
+			
+			
+		
+		
+	}
+
+}
