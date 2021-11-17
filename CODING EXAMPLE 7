@@ -1,0 +1,36 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Example7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner in = new Scanner(System.in);
+
+ /* calculate the price of car rental . Customer will charged for RM60 if total 
+  * hours less or equal to 24. otherwise, RM 5 will be charged for next every hour. 
+  * display the price of car rent 
+  */
+
+    int total_hour;
+    double price_rental;
+    double price1 = 60;
+    
+    System.out.print("Enter the total hour: ");
+    total_hour = in.nextInt();
+    
+    if (total_hour <= 24) {
+    	
+    	System.out.println("The price of car rental is RM" + price1 );}
+    
+    else {
+    	
+      price_rental = 60 + ((total_hour -24)*5);
+    System.out.println("The price of car rental is RM " + price_rental );}
+    
+    
+    	
+    	
+
+	}
+
+}
