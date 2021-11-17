@@ -1,0 +1,38 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Example5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  Scanner in = new Scanner(System.in);
+  
+  /* KTM will give 30% discount of train ticket price if a person is below 20
+   * years old . otherwise only 5% discount will be given. calculate and print 
+   * display the ticket price.
+   */
+  
+   double price;
+   int age;
+   double dis;
+   double ticket;
+   
+   System.out.print("Please enter your age: ");
+   age = in.nextInt();
+   System.out.print("Enter the price ticket: ");
+   ticket = in.nextDouble();
+   
+   if (age <20)
+	   price= ticket - (0.30* ticket);
+   else 
+	   price = ticket -(0.05*ticket);
+   
+   
+   System.out.println("The ticket price is : " + price);
+   
+   
+   
+  
+  
+	}
+
+}
